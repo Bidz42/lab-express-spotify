@@ -1,0 +1,11 @@
+<div class="con1">
+    <div class="two">
+
+        {{#each items}}
+        <div class="texttwo">
+            <img class="artist-img2" src="{{this.images.0.url}}">
+            <h5 class="artist-name text-white">{{this.name}}</h5>
+            <a class="album-link" href="/tracks/{{this.id}}">View Tracks</a>
+        </div>
+        {{/each}}
+    </div>
